@@ -42,7 +42,7 @@ do {
             break;
         case 3:
             let nomeRemoverRepetido = prompt('Digite o nome repetido que deseja remover em sua segunda aparição nas posições da lista:');
-            let primeiroIndex = nomePessoas.indexOf(nomeRemover);
+            let primeiroIndex = nomePessoas.indexOf(nomeRemoverRepetido);
             if (primeiroIndex !== -1) {
                 // Procura a próxima ocorrência após o primeiro
                 let segundoIndex = nomePessoas.indexOf(nomeRemoverRepetido, primeiroIndex + 1);
